@@ -1,5 +1,5 @@
 .slider {
-    min-height: 380px;
+    min-height: 420px;
     position: relative;
     overflow: hidden;
     display: -webkit-box;
@@ -103,7 +103,7 @@
 .slider__txt {
     color: #999;
     margin-bottom: 3rem;
-    max-width: 300px;
+    max-width: 800px;
 }
 
 @-webkit-keyframes check {

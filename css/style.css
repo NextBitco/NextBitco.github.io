@@ -1,9 +1,10 @@
 /*** Mixins & Default Styles ***/
-@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mali:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Thai&display=swap');
 body{
     overflow-x: hidden;
     overflow-y: scroll;
-    font-family: 'Kanit', sans-serif;
+    font-family: 'Mali', cursive;
 }
 * {
     margin: 0;
@@ -12,124 +13,131 @@ body{
 i {
     margin-right: 10px;
 }
-h1 {
-    font-family: 'Kanit', sans-serif;
+h1,h2,h3,h4,h5.h6 {
     color: #9433f0;
 }
-
 span {
-    font-family: 'Kanit', sans-serif;
-    font-weight: bolder;
-    color: #ff6801 ;
+    color: #ff6801;
 }
-
 .container {
-    /*background-color: #b1beff;*/
+    background-color:#fbfbfb;
 }
+/*----------------------------
+---- start banner section ----
+-----------------------------*/
 .banner {
-    min-height: 600px;
-}
-.banner .container {
-    max-height: 620px;
-    /*background-color: #FDBF9C;*/
-    background-image: url("../imgs/banner.png");
-    background-size: 100% ;
-    background-repeat: no-repeat ;
+    min-height: 620px;
     border-radius: 12px;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
-.banner p{
-    font-family: 'Kanit', sans-serif;
-    font-size: 24px;
-    font-weight: 600;
-    letter-spacing: 1px;
-    line-height: 1.27;
-    margin: 12px;
-    margin-left: 24px;
-    color: #9433f0;
-}
-.banner h1 {
-    font-family: 'Kanit', sans-serif;
-    font-weight: 820;
-    text-align: center;
-    color: #9433f0;
-}
-.banner img {
-    height: 100%;
-    width: 100%;
-    margin-top: 78px;
-}
-.banner .slime {
-    font-family: 'Kanit', sans-serif;
-    padding: 12px;
-    margin-left: 25%;
-}
-
-/*objective section*/
-.objective {
-    min-height: 240px;
-    margin-top: 108px ;
-    margin-left: 12px ;
-}
-.objective .left-image img{
-    margin-top: 5px;
-    position: absolute;
-    width: 100%;
-    height: 108%;
-    margin-top: -16px;
-    margin-left: -16px;
-}
-.objective .right-explain {
+.banner .left{
     position: relative;
-    padding: 12px;
-    margin-top: -128px ;
-    margin-left: 36px;
+    font-family: 'Mali', cursive;
 }
-
+.banner .right{
+    position: relative;
+}
+.banner .left span{
+    font-weight: bolder;
+}
+.banner .left h1{
+    text-align: center;
+    font-weight: bold;
+    font-family: 'IBM Plex Sans Thai', sans-serif;
+}
+.banner .left p{
+    color: #9433f0;
+    line-height: 1.52;
+    font-weight: 900;
+    font-family: 'Mali', cursive;
+}
+.banner .left img{
+    width: auto;
+    padding: 4%;
+}
+.banner .right img{
+    width: auto;
+}
+/*----------------------------
+---- end banner section ----
+-----------------------------*/
+/*----------------------------
+---- start objective section -
+-----------------------------*/
+.objective {
+    min-height: 420px;
+    width: auto;
+    margin-top: 12%;
+    font-family: 'Mali', cursive;
+}
+.objective h1,span{
+    font-weight: bolder;
+    margin: 3%;
+}
+.objective .left {
+    position: relative;
+    padding: 8%;
+}
+.objective .right {
+    position: relative;
+    padding-left: 10%;
+    padding-bottom: 4%;
+}
+.objective .left img,iframe{
+    width: 480px;
+    height: 300px;
+}
+.objective .left img {
+    position: absolute;
+    width: 500px;
+    height: 320px;
+    margin: -2%;
+}
+.object .left iframe{
+    position: relative;
+}
+/*----------------------------
+---- end objective section ---
+-----------------------------*/
+/*----------------------------
+---- start review section ---
+-----------------------------*/
 .review {
     min-height: 280px;
-    background-color: #8FA1FF;
     border-radius: 12px;
-    font-family: 'Kanit', sans-serif;
+    background-color: #8FA1FF;
+    font-family: 'Mali', cursive;
 }
-.review h2{
-    color: #fff;
+.review span{
+    color: #8E5AFF;
+}
+.review h1,h2{
+    color: #ffffff;
+    text-align: center;
 }
 .review p{
-    color: #fff;
+    color: #ffffff;
+    line-height: 1.52;
+    font-size: 26px;
 }
 .review img {
-    height: 100px;
-    width: 100px;
+    height: 120px;
+    width: 120px;
 }
-
+/*----------------------------
+---- end review section -----
+-----------------------------*/
+/*----------------------------
+---- start character section -
+-----------------------------*/
 .character {
-    font-family: 'Kanit', sans-serif;
     min-height: 900px;
-    margin-top: -224px;
+    font-family: 'Mali', cursive;
 }
-/*.list_jigsaw ul {*/
-/*    list-style-image: url("../imgs/icons/icon_jigsaw.png");*/
-/*}*/
-.list_jigsaw ul li {
-    list-style: none;
-    padding: 4px;
-    padding-left: 50px;
-    position: relative;
-
-    font-family: 'Kanit', sans-serif;
-    font-size: 20px;
-}
-.list_jigsaw ul li:before {
-    content: "";
-    position: absolute;
-    margin-top: 0px;
-    margin-left: -52px;
-    display: inline-block;
-    height: 30px;
-    width: 30px;
-    background-size: contain;
-    background-image: url("../imgs/icons/icon_jigsaw.png");
-}
+/*----------------------------
+---- end character section ---
+-----------------------------*/
 .picture{
     width: 100%;
 }
@@ -276,8 +284,181 @@ span {
     margin: 8px;
     font-size: 36px;
 }
-@media(max-width: 992px) {
+/*----------------------------
+---- start list-jigsaw section
+-----------------------------*/
+.list_jigsaw ul li {
+    list-style: none;
+    line-height: 1.52;
+    padding: 2%;
+    position: relative;
+    font-size: 26px;
+    font-weight: 600;
+    font-family: 'Mali', cursive;
+}
+.list_jigsaw ul li:before {
+    content: "";
+    position: absolute;
+    margin-top: 0px;
+    margin-left: -48px;
+    display: inline-block;
+    height: 30px;
+    width: 30px;
+    background-size: contain;
+    background-image: url("../imgs/icons/icon_jigsaw.png");
+}
+.list_jigsaw a{
+    color: #ffffff;
+}
+/*----------------------------
+---- end list-jigsaw section
+-----------------------------*/
 
+@media(min-width: 992px) {
+    /*----------------------------
+    ---- start banner section ----
+    -----------------------------*/
+    .banner {
+        padding-top: 14%;
+        background-image: url("../imgs/banner1.png") ;
+    }
+    .banner .left {
+        padding-left: 2%;
+    }
+    .banner .left p{
+        padding: 3%;
+        font-size: 24px;
+    }
+    .banner .left img{
+        position: relative;
+        display: block;
+        margin: 0 auto;
+        margin-top: -40%;
+        height: 380px;
+    }
+    .banner .right img{
+        height: 520px;
+        margin-left: -24%;
+    }
+    /*----------------------------
+    ---- end banner section -----
+    -----------------------------*/
+}
+@media(max-width: 991px) {
+    /*----------------------------
+    ---- start banner section ----
+    -----------------------------*/
+    .banner {
+        padding-top: 16%;
+        background-image: url("../imgs/banner2.png");
+    }
+    .banner .left{
+        padding-top:12%;
+    }
+    .banner .left p{
+        padding: 8%;
+        font-size: 20px;
+    }
+
+    .banner .left img{
+        height: 240px;
+        display: block;
+        margin: 0 auto;
+    }
+    .banner .right img{
+        position: relative;
+        height: 320px;
+        display: block;
+        margin: 0 auto;
+    }
+    /*----------------------------
+    ---- end banner section ------
+    -----------------------------*/
+    /*----------------------------
+    ---- start objective section -
+    -----------------------------*/
+    .objective h1,span{
+        font-size: 32px;
+    }
+    .objective .left img,iframe{
+        display: block;
+        height: 220px;
+        width: auto;
+        margin: 0 auto;
+    }
+    .objective .left img {
+        position: absolute;
+        height: 220px;
+        width: auto;
+        margin-left: -3%;
+    }
+    .object .left iframe{
+        position: relative;
+    }
+    .objective .left {
+        position: relative;
+    }
+    .objective .right {
+        position: relative;
+        padding: 12px;
+    }
+    /*----------------------------
+    ---- end objective section ---
+    -----------------------------*/
+    /*----------------------------
+    ---- start list-jigsaw section ---
+    -----------------------------*/
+    .list_jigsaw ul li {
+        list-style: none;
+        line-height: 1.52;
+        left: 6%;
+        padding: 2%;
+        position: relative;
+        font-size: 20px;
+        font-weight: 600;
+        font-family: 'Mali', cursive;
+    }
+    .list_jigsaw ul li:before {
+        content: "";
+        position: absolute;
+        margin-top: 0px;
+        margin-left: -38px;
+        display: inline-block;
+        height: 30px;
+        width: 30px;
+        background-size: contain;
+        background-image: url("../imgs/icons/icon_jigsaw.png");
+    }
+    .footer .list_jigsaw{
+        padding-left: 20%;
+        padding-bottom: 8%;
+    }
+    /*----------------------------
+    ---- end list-jigsaw section ---
+    -----------------------------*/
+    /*----------------------------
+    ---- start review section -
+    -----------------------------*/
+    .review {
+        min-height: 280px;
+    }
+    .review span{
+        font-size: 30px;
+    }
+    .review h1,h2{
+        font-size: 30px;
+    }
+    .review p{
+        padding: 4%;
+        font-size: 20px;
+    }
+    .review img {
+        height: 80px;
+        width:  80px;
+    }
+    /*----------------------------
+    ---- end review section -
+    -----------------------------*/
     .picture{
         width: 100%;
     }
