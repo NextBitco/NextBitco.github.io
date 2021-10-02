@@ -1180,13 +1180,15 @@ Portfolio
 .our-portfolio .item .hover-effect .inner-content h4 {
   font-size: 20px;
   font-weight: 700;
-  color: #fff;
+  /*color: #fff;*/
+  color: #000;
   margin-bottom: 15px;
 }
 
 .our-portfolio .item .hover-effect .inner-content span {
   font-size: 15px;
-  color: #fff;
+  /*color: #fff;*/
+  color: #000;
 }
 
 .our-portfolio .item .thumb img {

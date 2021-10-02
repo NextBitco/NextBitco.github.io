@@ -81,7 +81,8 @@ span {
 }
 .objective .right {
     position: relative;
-    padding-left: 10%;
+    /*padding-left: 10%;*/
+    padding-left: 14%;
     padding-bottom: 4%;
 }
 .objective .left img,iframe{
