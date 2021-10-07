@@ -254,7 +254,35 @@ p.from-me::after {
 ---- end about ---
 -----------------------------*/
 @media(min-width: 992px) {
-/*----------------------------
+    /*----------------------------
+    ---- start banner section ----
+    -----------------------------*/
+    .banner {
+        padding-top: 14%;
+        background-image: url("../imgs/banner1.png") ;
+    }
+    .banner .left {
+        padding-left: 2%;
+    }
+    .banner .left p{
+        padding: 3%;
+        font-size: 24px;
+    }
+    .banner .left img{
+        position: relative;
+        display: block;
+        margin: 0 auto;
+        margin-top: -40%;
+        height: 380px;
+    }
+    .banner .right img{
+        height: 520px;
+        margin-left: -24%;
+    }
+    /*----------------------------
+    ---- end banner section -----
+    -----------------------------*/
+    /*----------------------------
     ---- start about ---
     -----------------------------*/
     .picture{
@@ -371,9 +399,140 @@ p.from-me::after {
     /*----------------------------
     ---- end talk-tailing  -------
     -----------------------------*/
+
+    /*----------------------------
+    ---- start character-with-us ----
+    -----------------------------*/
+    .popularity .character-with-us .tody{
+        margin-left: 5%;
+    }
+    .popularity .character-with-us .teena{
+        margin-left: 28%;
+    }
+    .popularity .character-with-us .peemo{
+        margin-left: 28%;
+    }
+    /*----------------------------
+    ---- end character-with-us ----
+    -----------------------------*/
 }
+
 @media(max-width: 991px) {
-/*----------------------------
+    /*----------------------------
+    ---- start banner section ----
+    -----------------------------*/
+    .banner {
+        padding-top: 16%;
+        background-image: url("../imgs/banner2.png");
+    }
+    .banner .left{
+        padding-top:12%;
+    }
+    .banner .left p{
+        padding: 8%;
+        font-size: 20px;
+    }
+
+    .banner .left img{
+        height: 240px;
+        display: block;
+        margin: 0 auto;
+    }
+    .banner .right img{
+        position: relative;
+        height: 320px;
+        display: block;
+        margin: 0 auto;
+    }
+    /*----------------------------
+    ---- end banner section ------
+    -----------------------------*/
+    /*----------------------------
+    ---- start objective section -
+    -----------------------------*/
+    .objective h1,span{
+        font-size: 32px;
+    }
+    .objective .left img,iframe{
+        display: block;
+        height: 220px;
+        width: auto;
+        margin: 0 auto;
+    }
+    .objective .left img {
+        position: absolute;
+        height: 220px;
+        width: auto;
+        margin-left: -3%;
+    }
+    .object .left iframe{
+        position: relative;
+    }
+    .objective .left {
+        position: relative;
+    }
+    .objective .right {
+        position: relative;
+        padding: 12px;
+    }
+    /*----------------------------
+    ---- end objective section ---
+    -----------------------------*/
+    /*----------------------------
+    ---- start list-jigsaw section ---
+    -----------------------------*/
+    .list_jigsaw ul li {
+        list-style: none;
+        line-height: 1.52;
+        left: 6%;
+        padding: 2%;
+        position: relative;
+        font-size: 20px;
+        font-weight: 600;
+        font-family: 'Mali', cursive;
+    }
+    .list_jigsaw ul li:before {
+        content: "";
+        position: absolute;
+        margin-top: 0px;
+        margin-left: -38px;
+        display: inline-block;
+        height: 30px;
+        width: 30px;
+        background-size: contain;
+        background-image: url("../imgs/icons/icon_jigsaw.png");
+    }
+    .footer .list_jigsaw{
+        padding-left: 20%;
+        padding-bottom: 8%;
+    }
+    /*----------------------------
+    ---- end list-jigsaw section ---
+    -----------------------------*/
+    /*----------------------------
+    ---- start review section -
+    -----------------------------*/
+    .review {
+        min-height: 280px;
+    }
+    .review span{
+        font-size: 30px;
+    }
+    .review h1,h2{
+        font-size: 30px;
+    }
+    .review p{
+        padding: 4%;
+        font-size: 20px;
+    }
+    .review img {
+        height: 80px;
+        width:  80px;
+    }
+    /*----------------------------
+    ---- end review section -
+    -----------------------------*/
+    /*----------------------------
     ---- start about -
     -----------------------------*/
     .picture{
@@ -560,4 +719,121 @@ p.from-me::after {
         font-family: 'Mali', cursive;
         text-align: center;
     }
+
+    /*----------------------------
+    ---- start character-with-us ----
+    -----------------------------*/
+    .popularity .character-with-us img{
+        display: block;
+        width: auto;
+        height: 200px;
+        position: absolute;
+        margin-top: 170px;
+    }
+    .popularity .character-with-us .tody{
+        margin-left: -1%;
+    }
+    .popularity .character-with-us .teena{
+        margin-left: 26%;
+    }
+    .popularity .character-with-us .peemo{
+        margin-left: 28%;
+    }
+    /*----------------------------
+    ---- end character-with-us ----
+    -----------------------------*/
+
+}
+
+@media screen and (max-width: 767px){
+    /*----------------------------
+    ---- start talk-with-us  -------
+    -----------------------------*/
+    .talk-with-us .character-with-chat img{
+        display: block;
+        position: absolute;
+        width: auto;
+        height: 200px;
+    }
+    .talk-with-us .character-with-chat .tody{
+        margin-left: 1%;
+    }
+    .talk-with-us .character-with-chat .peemo{
+        margin-left: 30%;
+    }
+    .talk-with-us .character-with-chat .teena{
+        margin-left: 30%;
+    }
+    /*----------------------------
+    ---- end talk-with-us -------
+    -----------------------------*/
+    /*----------------------------
+     /*----------------------------
+    ---- start character-with-us ----
+    -----------------------------*/
+    .popularity .character-with-us img{
+        display: block;
+        width: auto;
+        height: 200px;
+        position: absolute;
+        margin-top: 170px;
+    }
+    .popularity .character-with-us .tody{
+        margin-left: 7%;
+    }
+    .popularity .character-with-us .teena{
+        margin-left: 26%;
+    }
+    .popularity .character-with-us .peemo{
+        margin-left: 28%;
+    }
+    /*----------------------------
+    ---- end character-with-us ----
+    -----------------------------*/
+}
+
+@media screen and (max-width: 570px){
+    /*----------------------------
+    ---- start talk-with-us  -------
+    -----------------------------*/
+    .talk-with-us .character-with-chat img{
+        display: block;
+        position: absolute;
+        width: auto;
+        height: 200px;
+    }
+    .talk-with-us .character-with-chat .tody{
+        margin-left: -8%;
+    }
+    .talk-with-us .character-with-chat .peemo{
+        margin-left: 30%;
+    }
+    .talk-with-us .character-with-chat .teena{
+        margin-left: 30%;
+    }
+    /*----------------------------
+    ---- end talk-with-us -------
+    -----------------------------*/
+     /*----------------------------
+    ---- start character-with-us ----
+    -----------------------------*/
+    .popularity .character-with-us img{
+        display: block;
+        width: auto;
+        height: 200px;
+        position: absolute;
+        margin-top: 170px;
+    }
+    .popularity .character-with-us .tody{
+        margin-left: -3%;
+    }
+    .popularity .character-with-us .teena{
+        margin-left: 26%;
+    }
+    .popularity .character-with-us .peemo{
+        margin-left: 28%;
+    }
+    /*----------------------------
+    ---- end character-with-us ----
+    -----------------------------*/
 }
