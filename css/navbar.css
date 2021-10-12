@@ -171,3 +171,11 @@
 	width: 100%;
 }
 /*---------------------------------------*/
+@media screen and (min-device-width: 768px) and (max-device-width: 1379px){
+	.navbar-logo{
+		padding: 0px;
+		color: #fff;
+		font-size: 28px;
+		margin-left: 10%;
+	}
+}
