@@ -42,36 +42,49 @@
 ---- start objective section -
 -----------------------------*/
 .objective {
-    min-height: 420px;
+    min-height: 540px;
     width: auto;
     margin-top: 12%;
     font-family: 'Mali', cursive;
 }
+.objective .background-video {
+    position: relative;
+    margin: 0 auto;
+    width: 410px;
+    height: 270px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url("../imgs/border_video.png");
+}
+.objective .background-video iframe{
+    width: 82%;
+    height: 82%;
+    position: relative;
+    top: 9%;
+    bottom: 0;
+    left: 9%;
+    right: 0;
+    margin: auto;
+}
 .objective h1,span{
     font-weight: bolder;
-    margin: 3%;
+}
+.objective h1{
+    margin-bottom: 4%;
 }
 .objective .left {
     position: relative;
-    padding: 8%;
 }
 .objective .right {
     position: relative;
-    padding-left: 10%;
-    padding-bottom: 4%;
-}
-.objective .left img,iframe{
-    width: 480px;
-    height: 300px;
 }
 .objective .left img {
+    z-index: 0;
     position: absolute;
-    width: 500px;
-    height: 320px;
-    margin: -2%;
-}
-.object .left iframe{
-    position: relative;
+    top: 0%;
+    left: 0%;
+    width: 440px;
+    height: 280px;
 }
 /*----------------------------
 ---- end objective section ---
@@ -146,9 +159,24 @@
         height: 520px;
         margin-left: -24%;
     }
-
     /*----------------------------
     ---- end banner section -----
+    -----------------------------*/
+    /*----------------------------
+    ---- start objective section -
+    -----------------------------*/
+    .objective .background-video {
+        position: relative;
+        top: 16%;
+        margin: 0 auto;
+        width: 410px;
+        height: 270px;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-image: url("../imgs/border_video.png");
+    }
+    /*----------------------------
+    ---- end objective section -
     -----------------------------*/
 }
 @media(max-width: 991px) {
@@ -189,34 +217,20 @@
     ---- start objective section -
     -----------------------------*/
     .objective h1, span {
+        margin-top: 8%;
         font-size: 32px;
     }
-
-    .objective .left img, iframe {
-        display: block;
-        height: 220px;
-        width: auto;
-        margin: 0 auto;
+    .objective .background-video {
+        width: 300px;
+        height: 200px;
     }
-
-    .objective .left img {
-        position: absolute;
-        height: 220px;
-        width: auto;
-        margin-left: -3%;
-    }
-
-    .object .left iframe {
-        position: relative;
-    }
-
     .objective .left {
         position: relative;
     }
 
-    .objective .right {
+    .objective .right ul{
         position: relative;
-        padding: 12px;
+        left: -16%;
     }
 
     /*----------------------------
