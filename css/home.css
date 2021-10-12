@@ -1,0 +1,253 @@
+/*----------------------------
+---- start banner section ----
+-----------------------------*/
+.banner {
+    min-height: 620px;
+    border-radius: 12px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.banner .left{
+    position: relative;
+    font-family: 'Mali', cursive;
+}
+.banner .right{
+    position: relative;
+}
+.banner .left span{
+    font-weight: bolder;
+}
+.banner .left h1{
+    text-align: center;
+    font-weight: bold;
+    font-family: 'IBM Plex Sans Thai', sans-serif;
+}
+.banner .left p{
+    color: #9433f0;
+    line-height: 1.52;
+    font-weight: 900;
+    font-family: 'Mali', cursive;
+}
+.banner .left img{
+    width: auto;
+    padding: 4%;
+}
+.banner .right img{
+    width: auto;
+}
+/*----------------------------
+---- end banner section ----
+-----------------------------*/
+/*----------------------------
+---- start objective section -
+-----------------------------*/
+.objective {
+    min-height: 420px;
+    width: auto;
+    margin-top: 12%;
+    font-family: 'Mali', cursive;
+}
+.objective h1,span{
+    font-weight: bolder;
+    margin: 3%;
+}
+.objective .left {
+    position: relative;
+    padding: 8%;
+}
+.objective .right {
+    position: relative;
+    padding-left: 10%;
+    padding-bottom: 4%;
+}
+.objective .left img,iframe{
+    width: 480px;
+    height: 300px;
+}
+.objective .left img {
+    position: absolute;
+    width: 500px;
+    height: 320px;
+    margin: -2%;
+}
+.object .left iframe{
+    position: relative;
+}
+/*----------------------------
+---- end objective section ---
+-----------------------------*/
+/*----------------------------
+---- start review section ---
+-----------------------------*/
+.review {
+    min-height: 280px;
+    border-radius: 12px;
+    background-color: #8FA1FF;
+    font-family: 'Mali', cursive;
+}
+.review span{
+    color: #8E5AFF;
+}
+.review h1,h2{
+    color: #ffffff;
+    text-align: center;
+}
+.review p{
+    color: #ffffff;
+    line-height: 1.52;
+    font-size: 26px;
+}
+.review img {
+    height: 120px;
+    width: 120px;
+}
+/*----------------------------
+---- end review section -----
+-----------------------------*/
+
+/*----------------------------
+---- start character section -
+-----------------------------*/
+.character {
+    min-height: 900px;
+    font-family: 'Mali', cursive;
+}
+/*----------------------------
+---- end character section ---
+-----------------------------*/
+
+@media(min-width: 992px) {
+    /*----------------------------
+    ---- start banner section ----
+    -----------------------------*/
+    .banner {
+        padding-top: 14%;
+        background-image: url("https://drive.google.com/uc?export=view&id=1WwS7W160a1Onup7NLPnLFeV1NIjSB17Z");
+    }
+
+    .banner .left {
+        padding-left: 2%;
+    }
+
+    .banner .left p {
+        padding: 3%;
+        font-size: 24px;
+    }
+
+    .banner .left img {
+        position: relative;
+        display: block;
+        margin: 0 auto;
+        margin-top: -40%;
+        height: 380px;
+    }
+
+    .banner .right img {
+        height: 520px;
+        margin-left: -24%;
+    }
+
+    /*----------------------------
+    ---- end banner section -----
+    -----------------------------*/
+}
+@media(max-width: 991px) {
+    /*----------------------------
+    ---- start banner section ----
+    -----------------------------*/
+    .banner {
+        padding-top: 16%;
+        background-image: url("https://drive.google.com/uc?export=view&id=1tQBSs-c1JaKPtacr7EeWdxc65wI_KVEk");
+    }
+
+    .banner .left {
+        padding-top: 12%;
+    }
+
+    .banner .left p {
+        padding: 8%;
+        font-size: 20px;
+    }
+
+    .banner .left img {
+        height: 240px;
+        display: block;
+        margin: 0 auto;
+    }
+
+    .banner .right img {
+        position: relative;
+        height: 320px;
+        display: block;
+        margin: 0 auto;
+    }
+
+    /*----------------------------
+    ---- end banner section ------
+    -----------------------------*/
+    /*----------------------------
+    ---- start objective section -
+    -----------------------------*/
+    .objective h1, span {
+        font-size: 32px;
+    }
+
+    .objective .left img, iframe {
+        display: block;
+        height: 220px;
+        width: auto;
+        margin: 0 auto;
+    }
+
+    .objective .left img {
+        position: absolute;
+        height: 220px;
+        width: auto;
+        margin-left: -3%;
+    }
+
+    .object .left iframe {
+        position: relative;
+    }
+
+    .objective .left {
+        position: relative;
+    }
+
+    .objective .right {
+        position: relative;
+        padding: 12px;
+    }
+
+    /*----------------------------
+    ---- end objective section ---
+    -----------------------------*/
+    /*----------------------------
+     ---- start review section -
+     -----------------------------*/
+    .review {
+        min-height: 280px;
+    }
+
+    .review span {
+        font-size: 30px;
+    }
+
+    .review h1, h2 {
+        font-size: 30px;
+    }
+
+    .review p {
+        padding: 4%;
+        font-size: 20px;
+    }
+
+    .review img {
+        height: 80px;
+        width: 80px;
+    }
+
+    /*----------------------------
+    ---- end review section -
+    -----------------------------*/
+}
