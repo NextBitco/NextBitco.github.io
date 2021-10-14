@@ -44,7 +44,7 @@
 .objective {
     min-height: 540px;
     width: auto;
-    margin-top: 12%;
+    margin: 12% 0% 4% 0%;
     font-family: 'Mali', cursive;
 }
 .objective .background-video {
@@ -54,7 +54,7 @@
     height: 270px;
     background-size: cover;
     background-repeat: no-repeat;
-    background-image: url("../imgs/border_video.png");
+    background-image: url("../imgs/webp/border_video.webp");
 }
 .objective .background-video iframe{
     width: 82%;
@@ -135,7 +135,7 @@
     -----------------------------*/
     .banner {
         padding-top: 14%;
-        background-image: url("https://drive.google.com/uc?export=view&id=1WwS7W160a1Onup7NLPnLFeV1NIjSB17Z");
+        background-image: url("../imgs/webp/banner1.webp");
     }
 
     .banner .left {
@@ -173,7 +173,7 @@
         height: 270px;
         background-size: cover;
         background-repeat: no-repeat;
-        background-image: url("../imgs/border_video.png");
+        background-image: url("../imgs/webp/border_video.webp");
     }
     /*----------------------------
     ---- end objective section -
@@ -185,7 +185,7 @@
     -----------------------------*/
     .banner {
         padding-top: 16%;
-        background-image: url("https://drive.google.com/uc?export=view&id=1tQBSs-c1JaKPtacr7EeWdxc65wI_KVEk");
+        background-image: url("../imgs/webp/banner2.webp");
     }
 
     .banner .left {
