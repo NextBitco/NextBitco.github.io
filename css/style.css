@@ -1,16 +1,25 @@
 /*** Mixins & Default Styles ***/
-@import url('https://fonts.googleapis.com/css2?family=Mali:wght@300;400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mali:wght@300;400;500;600;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Thai&display=swap');
 body{
     overflow-x: hidden;
     overflow-y: scroll;
     font-family: 'Mali', cursive;
 }
+body > footer{
+    margin:0px;
+    padding:0px;
+    min-width:100%;
+    max-width:100%;
+    background:#ffffff;
+    height:auto;
+}
 i {
     margin-right: 10px;
 }
 h1,h2,h3,h4,h5.h6 {
     color: #9433f0;
+    font-weight: 700;
 }
 span {
     color: #ff6801;
@@ -18,7 +27,6 @@ span {
 .container {
     background-color:#fbfbfb;
 }
-
 /*----------------------------
 ---- start list-jigsaw ---
 -----------------------------*/
@@ -40,7 +48,7 @@ span {
     height: 30px;
     width: 30px;
     background-size: contain;
-    background-image: url("../imgs/icons/webp/icon_jigsaw.webp");
+    background-image: url("../imgs/png/icon_jigsaw.png");
 }
 .list_jigsaw a{
     color: #ffffff;

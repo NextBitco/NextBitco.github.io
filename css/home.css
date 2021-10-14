@@ -65,6 +65,7 @@
     left: 9%;
     right: 0;
     margin: auto;
+    border: none;
 }
 .objective h1,span{
     font-weight: bolder;
@@ -198,14 +199,13 @@
     }
 
     .banner .left img {
-        height: 240px;
+        height: 300px;
         display: block;
         margin: 0 auto;
     }
 
     .banner .right img {
-        position: relative;
-        height: 320px;
+        height: 360px;
         display: block;
         margin: 0 auto;
     }
@@ -263,5 +263,42 @@
 
     /*----------------------------
     ---- end review section -
+    -----------------------------*/
+}
+@media (max-device-width: 400px){
+    /*----------------------------
+      ---- start banner section ----
+      -----------------------------*/
+    .banner .left img {
+        height: 200px;
+        display: block;
+        margin: 0 auto;
+    }
+
+    .banner .right img {
+        height: 280px;
+        display: block;
+        margin: 0 auto;
+    }
+    /*----------------------------
+    ---- end banner section ------
+    -----------------------------*/
+    /*----------------------------
+    ---- start objective section -
+    -----------------------------*/
+    .objective h1, span {
+        margin-top: 8%;
+        font-size: 28px;
+    }
+    .objective .background-video {
+        width: 240px;
+        height: 160px;
+    }
+    .objective .right ul{
+        position: relative;
+        left: -18%;
+    }
+    /*---------------------------
+    ---- end objective section ---
     -----------------------------*/
 }
