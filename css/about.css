@@ -259,7 +259,7 @@ p.from-me::after {
     -----------------------------*/
     .banner {
         padding-top: 14%;
-        background-image: url("../imgs/banner1.png") ;
+        background-image: url("../imgs/webp/banner1.webp") ;
     }
     .banner .left {
         padding-left: 2%;
@@ -299,7 +299,7 @@ p.from-me::after {
     .character-pre{
         padding-top: 8%;
         border-radius: 12px;
-        background-image: url("../imgs/bg-character1.png");
+        background-image: url("../imgs/webp/bg-character1.webp");
         background-size: cover;
         font-weight: bolder;
         font-family: 'Mali', cursive;
@@ -311,7 +311,7 @@ p.from-me::after {
         background-size: 70%;
         background-position: center;
         background-repeat: no-repeat;
-        background-image: url("../imgs/txt-paint.png");
+        background-image: url("../imgs/webp/txt-paint.webp");
 
     }
     .box {
@@ -423,7 +423,7 @@ p.from-me::after {
     -----------------------------*/
     .banner {
         padding-top: 16%;
-        background-image: url("../imgs/banner2.png");
+        background-image: url("../imgs/webp/banner2.webp");
     }
     .banner .left{
         padding-top:12%;
@@ -500,7 +500,7 @@ p.from-me::after {
         height: 30px;
         width: 30px;
         background-size: contain;
-        background-image: url("../imgs/icons/icon_jigsaw.png");
+        background-image: url("../imgs/icons/webp/icon_jigsaw.webp");
     }
     .footer .list_jigsaw{
         padding-left: 20%;
@@ -571,7 +571,7 @@ p.from-me::after {
         background-size: 100%;
         background-position: center;
         background-repeat: no-repeat;
-        background-image: url("../imgs/txt-paint.png");
+        background-image: url("../imgs/webp/txt-paint.webp");
 
     }
     .box {
@@ -898,7 +898,7 @@ p.from-me::after {
     ---- start popularity  -------
     -----------------------------*/
     .popularity h2{
-        background-image: url("../imgs/txt-paint_v3.png");
+        background-image: url("../imgs/webp/txt-paint_v3.webp");
         background-repeat: no-repeat;
         background-position: center;
         background-size: contain;
