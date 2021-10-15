@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <title>Nextbit_2.0</title>
-    <link rel="icon" href="./imgs/icons/webp/icon_logo_dino.webp">
+    <link rel="icon" href="./imgs/png/logo_dino.png">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <!-- css style -->
@@ -34,32 +34,35 @@
 </head>
 <body>
 <!-- Start Navbar -->
-    <nav class="navbar navbar-expand-custom navbar-mainbg" id="navbar">
-        <a class="navbar-brand navbar-logo" href="./index.html">
-            <img src="./imgs/webp/logo_dino.webp">
-            Nextbit
-        </a>
-        <button class="navbar-toggler" type="button" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <i class="fas fa-bars text-white"></i>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav ml-auto">
-                <div class="hori-selector"><div class="left"></div><div class="right"></div></div>
-                <li class="nav-item">
-                    <a class="nav-link" href="./index.html"><i class="fas fa-home"></i>หน้าหลัก</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="./about.html"><i class="fa fa-users"></i>เกี่ยวกับพวกเรา</a>
-                </li>
-                <li class="nav-item active">
-                    <a class="nav-link" href="./course.html"><i class="fa fa-graduation-cap"></i>คอร์สเรียน</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="./article.html"><i class="fa fa-cubes"></i>บทความ</a>
-                </li>
-            </ul>
-        </div>
-    </nav>
+<nav class="navbar navbar-expand-custom navbar-mainbg" id="navbar">
+    <a class="navbar-brand navbar-logo" href="./index.html">
+        <picture>
+            <source srcset="imgs/webp/logo_dino.webp">
+            <img src="./imgs/png/logo_dino.png"/>
+        </picture>
+        <span>Next</span>bit
+    </a>
+    <button class="navbar-toggler" type="button" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <i class="fas fa-bars text-white"></i>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ml-auto">
+            <div class="hori-selector"><div class="left"></div><div class="right"></div></div>
+            <li class="nav-item">
+                <a class="nav-link" href="./index.html"><i class="fas fa-home"></i>หน้าหลัก</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="./about.html"><i class="fa fa-users"></i>เกี่ยวกับพวกเรา</a>
+            </li>
+            <li class="nav-item active">
+                <a class="nav-link" href="./course.html"><i class="fa fa-graduation-cap"></i>คอร์สเรียน</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="https://nextbit.co/post/"><i class="fa fa-cubes"></i>บทความ</a>
+            </li>
+        </ul>
+    </div>
+</nav>
 <!-- End Navbar -->
 <div class="container">
     <section class="head-course">
@@ -74,10 +77,16 @@
         <ul class="cards">
             <li>
                 <a href="./ScratchJr.html" class="card">
-                    <img src="./imgs/webp/Couse1.webp" class="card__image" alt="" />
+                    <picture>
+                        <source srcset="./imgs/webp/Couse1.webp" class="card__image">
+                        <img src="./imgs/png/Couse1.png" class="card__image">
+                    </picture>
                     <div class="card__overlay">
                         <div class="card__header">
-                            <img class="card__thumb" src="./imgs/webp/logo_dino.webp" alt="" />
+                            <picture>
+                                <source srcset="./imgs/webp/logo_dino.webp" class="card__thumb">
+                                <img src="./imgs/png/logo_dino.png" class="card__thumb">
+                            </picture>
                             <div class="card__header-text">
                                 <h1>Scratch Jr.</h1>
                             </div>
@@ -88,29 +97,39 @@
             </li>
             <li>
                 <a href="./course.html" class="card">
-                    <img src="./imgs/Couselock.jpg" class="card__image" alt="" />
+                    <picture>
+                        <source srcset="./imgs/webp/Couselock.webp" class="card__image">
+                        <img src="./imgs/png/Couselock.png" class="card__image">
+                    </picture>
                     <div class="card__overlay">
                         <div class="card__header">
-                            <img class="card__thumb" src="./imgs/logo_dino.png" alt="" />
+                            <picture>
+                                <source srcset="./imgs/webp/logo_dino.webp" class="card__thumb">
+                                <img src="./imgs/png/logo_dino.png" class="card__thumb">
+                            </picture>
                             <div class="card__header-text">
                                 <h1>Coming Soon..</h1>
                             </div>
                         </div>
-<!--                        <p>นี้เราทำขึ้นเพื่อสอนการใช้โปรแกรม Scratch Jr. เบื้องต้นอย่างละเอียด ทุกบล็อกคำสั่งและ ทุก Function ที่มีในโปรแกรม ผ่านเรื่องราววุ่นๆ ของเหล่าไดโน่ 3 ตัว ที่เป็นเพื่อนกัน อยู่หมู่บ้านเดียวกัน และ เรียนโรงเรียนเดียวกัน โดยร้อยเรียงเป็นเรื่องราวเหมือนนิทาน 1 เรื่องที่เราจะเล่าให้น้องๆฟังไปพร้อมๆกัน</p>-->
                     </div>
                 </a>
             </li>
             <li>
                 <a href="./course.html" class="card">
-                    <img src="./imgs/Couselock.jpg" class="card__image" alt="" />
+                    <picture>
+                        <source srcset="./imgs/webp/Couselock.webp" class="card__image">
+                        <img src="./imgs/png/Couselock.png" class="card__image">
+                    </picture>
                     <div class="card__overlay">
                         <div class="card__header">
-                            <img class="card__thumb" src="./imgs/logo_dino.png" alt="" />
+                            <picture>
+                                <source srcset="./imgs/webp/logo_dino.webp" class="card__thumb">
+                                <img src="./imgs/png/logo_dino.png" class="card__thumb">
+                            </picture>
                             <div class="card__header-text">
                                 <h1>Coming Soon..</h1>
                             </div>
                         </div>
-                        <!--<p>นี้เราทำขึ้นเพื่อสอนการใช้โปรแกรม Scratch Jr. เบื้องต้นอย่างละเอียด ทุกบล็อกคำสั่งและ ทุก Function ที่มีในโปรแกรม ผ่านเรื่องราววุ่นๆ ของเหล่าไดโน่ 3 ตัว ที่เป็นเพื่อนกัน อยู่หมู่บ้านเดียวกัน และ เรียนโรงเรียนเดียวกัน โดยร้อยเรียงเป็นเรื่องราวเหมือนนิทาน 1 เรื่องที่เราจะเล่าให้น้องๆฟังไปพร้อมๆกัน</p>-->
                     </div>
                 </a>
             </li>
@@ -140,10 +159,10 @@
             </div>
         </div>
         <div class="row">
-            <div class="footer-logo col-lg-2">
+            <div class="footer-logo col-lg-3">
                 <picture>
-                    <source srcset="./imgs/webp/icon_logo_dino.webp">
-                    <img src="./imgs/png/icon_logo_dino.png"/>
+                    <source srcset="./imgs/webp/logo_dino.webp">
+                    <img src="./imgs/png/logo_dino.png"/>
                 </picture>
                 <p><span>Next</span>bit.co©2021</p>
             </div>
@@ -157,7 +176,7 @@
                     </ul>
                 </div>
             </div>
-            <div class="footer-contact col-lg-4">
+            <div class="footer-contact col-lg-3">
                 <div>
                     <h4>ช่องทาง<span>ติดต่อ</span></h4>
                     <p><i class="fa fa-phone"></i>062-365-9233</p>

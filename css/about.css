@@ -95,7 +95,8 @@
 -----------------------------*/
 .talk-talk .name{
     color: #616161;
-    font-weight: bolder;
+    font-weight: bold;
+    text-align: left;
 }
 .talk-talk .team{
     display: flex;
@@ -202,12 +203,12 @@ p.from-me::after {
     margin-top: 8%;
     margin-bottom: 8%;
     font-family: 'Mali', cursive;
-    background-image: url("../imgs/webp/popularity.webp");
+    background-image: url("../imgs/png/popularity.png");
     background-size: cover;
     border-radius: 8px;
 }
 .popularity h2{
-    background-image: url("../imgs/webp/txt-paint_v2.webp");
+    background-image: url("../imgs/png/txt-paint_v2.png");
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
@@ -218,21 +219,21 @@ p.from-me::after {
 .popularity .character-with-us{
     display: flex;
     position: relative;
-    height: 380px;
+    height: 200px;
 }
 .popularity img{
     position: absolute;
-    height: 380px;
+    height: 200px;
     width: auto;
 }
 .popularity .tody{
-    margin-left: 16%;
+    margin-left: 18%;
 }
 .popularity .teena{
-    margin-left: 16%;
+    margin-left: 18%;
 }
 .popularity .peemo{
-    margin-left: 16%;
+    margin-left: 18%;
 }
 /*----------------------------
 ---- end popularity  -------
@@ -259,7 +260,7 @@ p.from-me::after {
     -----------------------------*/
     .banner {
         padding-top: 14%;
-        background-image: url("../imgs/webp/banner1.webp") ;
+        background-image: url("../imgs/png/banner1.png") ;
     }
     .banner .left {
         padding-left: 2%;
@@ -283,12 +284,6 @@ p.from-me::after {
     ---- end banner section -----
     -----------------------------*/
     /*----------------------------
-    ---- start about ---
-    -----------------------------*/
-    .picture{
-        width: 100%;
-    }
-    /*----------------------------
     ---- start character-pre -
     -----------------------------*/
     .characterabout {
@@ -299,7 +294,7 @@ p.from-me::after {
     .character-pre{
         padding-top: 8%;
         border-radius: 12px;
-        background-image: url("../imgs/webp/bg-character1.webp");
+        background-image: url("../imgs/png/bg-character1.png");
         background-size: cover;
         font-weight: bolder;
         font-family: 'Mali', cursive;
@@ -311,7 +306,7 @@ p.from-me::after {
         background-size: 70%;
         background-position: center;
         background-repeat: no-repeat;
-        background-image: url("../imgs/webp/txt-paint.webp");
+        background-image: url("../imgs/png/txt-paint.png");
 
     }
     .box {
@@ -358,21 +353,60 @@ p.from-me::after {
         text-align: center;
     }
     /*----------------------------
+    ---- start talk-header  -------
+    -----------------------------*/
+    .talk-header{
+        min-height: 90px;
+        width: auto;
+        border-top-left-radius: 12px;
+        border-top-right-radius: 12px;
+        background-color: #8E5AFF;
+        background-size: cover;
+        background-position: center;
+    }
+    .talk-header .logo{
+        height: 50px;
+        width: 50px;
+        margin-right: 8px;
+    }
+    .talk-header .left{
+        padding: 1%;
+    }
+    .talk-header .right{
+        padding: 2%;
+    }
+    .talk-header h1,h2,h3,h4,h5,h6{
+        color: #ffffff;
+        font-weight: bolder;
+    }
+    .talk-header i{
+        color: #ffffff;
+        width: 28px;
+        height: 28px;
+        text-align: center;
+        line-height: 28px;
+        background-color: #ff6801;
+        border-radius: 50%;
+        font-size: 18px;
+    }
+    /*----------------------------
+    ---- end talk-header  -------
+    -----------------------------*/
+    /*----------------------------
     ---- start talk-with-us  -------
     -----------------------------*/
     .talk-with-us .character-with-chat{
         display: flex;
-        max-height: 400px;
+        max-height: 200px;
     }
     .talk-with-us .character-with-chat img{
         display: block;
         position: absolute;
         width: auto;
-        height: 400px;
+        height: 200px;
     }
     .talk-with-us .character-with-chat .tody{
         margin-top: -40% ;
-        margin-left: -15%;
     }
     .talk-with-us .character-with-chat .peemo{
         margin-top: -70%;
@@ -404,7 +438,7 @@ p.from-me::after {
     ---- start character-with-us ----
     -----------------------------*/
     .popularity .character-with-us .tody{
-        margin-left: 5%;
+        margin-left: 12%;
     }
     .popularity .character-with-us .teena{
         margin-left: 28%;
@@ -423,7 +457,7 @@ p.from-me::after {
     -----------------------------*/
     .banner {
         padding-top: 16%;
-        background-image: url("../imgs/webp/banner2.webp");
+        background-image: url("../imgs/png/banner2.png");
     }
     .banner .left{
         padding-top:12%;
@@ -479,65 +513,8 @@ p.from-me::after {
     ---- end objective section ---
     -----------------------------*/
     /*----------------------------
-    ---- start list-jigsaw section ---
-    -----------------------------*/
-    .list_jigsaw ul li {
-        list-style: none;
-        line-height: 1.52;
-        left: 6%;
-        padding: 2%;
-        position: relative;
-        font-size: 20px;
-        font-weight: 600;
-        font-family: 'Mali', cursive;
-    }
-    .list_jigsaw ul li:before {
-        content: "";
-        position: absolute;
-        margin-top: 0px;
-        margin-left: -38px;
-        display: inline-block;
-        height: 30px;
-        width: 30px;
-        background-size: contain;
-        background-image: url("../imgs/icons/webp/icon_jigsaw.webp");
-    }
-    .footer .list_jigsaw{
-        padding-left: 20%;
-        padding-bottom: 8%;
-    }
-    /*----------------------------
-    ---- end list-jigsaw section ---
-    -----------------------------*/
-    /*----------------------------
-    ---- start review section -
-    -----------------------------*/
-    .review {
-        min-height: 280px;
-    }
-    .review span{
-        font-size: 30px;
-    }
-    .review h1,h2{
-        font-size: 30px;
-    }
-    .review p{
-        padding: 4%;
-        font-size: 20px;
-    }
-    .review img {
-        height: 80px;
-        width:  80px;
-    }
-    /*----------------------------
-    ---- end review section -
-    -----------------------------*/
-    /*----------------------------
     ---- start about -
     -----------------------------*/
-    .picture{
-        width: 100%;
-    }
     .introduceline {
         position: relative;
     }
@@ -558,7 +535,7 @@ p.from-me::after {
         padding-top: 4%;
         max-height: 500px;
         border-radius: 12px;
-        background-image: url("../imgs/webp/bg-character1.webp");
+        background-image: url("../imgs/png/bg-character1.png");
         background-size: cover;
         font-weight: bolder;
         font-family: 'Mali', cursive;
@@ -571,7 +548,7 @@ p.from-me::after {
         background-size: 100%;
         background-position: center;
         background-repeat: no-repeat;
-        background-image: url("../imgs/webp/txt-paint.webp");
+        background-image: url("../imgs/png/txt-paint.png");
 
     }
     .box {
@@ -612,7 +589,7 @@ p.from-me::after {
     .talk-with-us .character-with-chat{
         display: flex;
         position: relative;
-        height: 400px;
+        height: 200px;
     }
     .talk-with-us .character-with-chat img{
         display: block;
@@ -621,13 +598,13 @@ p.from-me::after {
         height: 200px;
     }
     .talk-with-us .character-with-chat .tody{
-        margin-left: -8%;
+        margin: 5% 0% 10% 8%;
     }
     .talk-with-us .character-with-chat .peemo{
-        margin-left: 30%;
+        margin: 5% 0% 10% 30%;
     }
     .talk-with-us .character-with-chat .teena{
-        margin-left: 30%;
+        margin: 5% 0% 10% 30%;
     }
     /*----------------------------
     ---- end talk-with-us -------
@@ -637,7 +614,8 @@ p.from-me::after {
     -----------------------------*/
     .talk-talk .name{
         color: #616161;
-        font-weight: bolder;
+        font-weight: bold;
+        text-align: left;
     }
     .talk-talk .team{
         display: flex;
@@ -726,12 +704,12 @@ p.from-me::after {
     .popularity .character-with-us img{
         display: block;
         width: auto;
-        height: 200px;
+        height: 160px;
         position: absolute;
-        margin-top: 170px;
+        margin-top: 12px;
     }
     .popularity .character-with-us .tody{
-        margin-left: -1%;
+        margin-left: 12%;
     }
     .popularity .character-with-us .teena{
         margin-left: 26%;
@@ -789,28 +767,7 @@ p.from-me::after {
         height: 200px;
     }
     .talk-with-us .character-with-chat .tody{
-        margin-left: -8%;
-    }
-    .talk-with-us .character-with-chat .peemo{
-        margin-left: 30%;
-    }
-    .talk-with-us .character-with-chat .teena{
-        margin-left: 30%;
-    }
-    /*----------------------------
-    ---- end talk-with-us -------
-    -----------------------------*/
-    /*----------------------------
-    ---- start talk-with-us  -------
-    -----------------------------*/
-    .talk-with-us .character-with-chat img{
-        display: block;
-        position: absolute;
-        width: auto;
-        height: 300px;
-    }
-    .talk-with-us .character-with-chat .tody{
-        margin-left: 1%;
+        margin-left: 8%;
     }
     .talk-with-us .character-with-chat .peemo{
         margin-left: 30%;
@@ -828,12 +785,12 @@ p.from-me::after {
     .popularity .character-with-us img{
         display: block;
         width: auto;
-        height: 300px;
+        height: 160px;
         position: absolute;
-        margin-top: 85px;
+        margin-top: 20px;
     }
     .popularity .character-with-us .tody{
-        margin-left: 4%;
+        margin-left: 12%;
     }
     .popularity .character-with-us .teena{
         margin-left: 26%;
@@ -872,15 +829,18 @@ p.from-me::after {
      /*----------------------------
     ---- start character-with-us ----
     -----------------------------*/
+    .popularity h2{
+        font-size: 20px;
+    }
     .popularity .character-with-us img{
         display: block;
         width: auto;
-        height: 200px;
+        height: 160px;
         position: absolute;
-        margin-top: 170px;
+        margin-top: 20px;
     }
     .popularity .character-with-us .tody{
-        margin-left: 7%;
+        margin-left: 12%;
     }
     .popularity .character-with-us .teena{
         margin-left: 26%;
@@ -898,7 +858,7 @@ p.from-me::after {
     ---- start popularity  -------
     -----------------------------*/
     .popularity h2{
-        background-image: url("../imgs/webp/txt-paint_v3.webp");
+        background-image: url("../imgs/png/txt-paint_v3.png");
         background-repeat: no-repeat;
         background-position: center;
         background-size: contain;
@@ -950,10 +910,10 @@ p.from-me::after {
         display: block;
         position: absolute;
         width: auto;
-        height: 200px;
+        height: 140px;
     }
     .talk-with-us .character-with-chat .tody{
-        margin-left: -8%;
+        margin-left: 2%;
     }
     .talk-with-us .character-with-chat .peemo{
         margin-left: 30%;
@@ -970,18 +930,18 @@ p.from-me::after {
     .popularity .character-with-us img{
         display: block;
         width: auto;
-        height: 200px;
+        height: 120px;
         position: absolute;
-        margin-top: 170px;
+        margin-top: 56px;
     }
     .popularity .character-with-us .tody{
-        margin-left: -3%;
+        margin-left: 8%;
     }
     .popularity .character-with-us .teena{
-        margin-left: 26%;
+        margin-left: 24%;
     }
     .popularity .character-with-us .peemo{
-        margin-left: 28%;
+        margin-left: 26%;
     }
     /*----------------------------
     ---- end character-with-us ----
