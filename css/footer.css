@@ -32,7 +32,6 @@ footer .footer-contact {
 }
 footer .footer-contact h1,h2,h3,h4,h5,h6{
     margin: 1rem auto;
-    text-align: center;
     color: #ffffff;
     font-weight: 700;
 }
@@ -89,12 +88,10 @@ footer .footer-qrcode img{
     footer .footer-contact {
         display: block;
         color: #ffffff;
-        margin: 0 auto;
         font-size: 24px;
     }
     footer .footer-contact h1,h2,h3,h4,h5,h6{
-        margin: 1rem auto;
-        text-align: center;
+        margin-left: 94px;
         color: #ffffff;
         font-weight: 700;
     }
@@ -159,7 +156,6 @@ footer .footer-qrcode img{
     }
     footer .footer-contact h1,h2,h3,h4,h5,h6{
         margin: 1rem auto;
-        text-align: center;
         color: #ffffff;
         font-weight: 700;
     }
