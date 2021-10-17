@@ -118,21 +118,7 @@ charecter review
   opacity: 1;
 }
 
-.owl-portfolio .owl-nav .owl-prev span:after {
-  width: 46px;
-  height: 46px;
-  background-color: #a93de7;
-  display: inline-block;
-  text-align: center;
-  line-height: 46px;
-  border-radius: 50%;
-  color: #fff;
-  content: '\f104';
-  font-size: 22px;
-  font-family: 'FontAwesome';
-  transition: all .5s;
-  opacity: 0.5;
-}
+
 
 .owl-portfolio .owl-nav .owl-next span {
     color: transparent;
@@ -142,18 +128,3 @@ charecter review
   opacity: 1;
 }
 
-.owl-portfolio .owl-nav .owl-next span:after {
-  width: 46px;
-  height: 46px;
-  background-color: #a93de7;
-  display: inline-block;
-  text-align: center;
-  line-height: 46px;
-  border-radius: 50%;
-  color: #fff;
-  content: '\f105';
-  font-size: 22px;
-  font-family: 'FontAwesome';
-  transition: all .5s;
-  opacity: 0.5;
-}
