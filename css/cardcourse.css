@@ -1,3 +1,4 @@
+
 :root {
     --surface-color: #fff;
     --curve: 40;
@@ -42,7 +43,8 @@
     text-align: left;
     padding: 10px 30px 0px 30px;
     font-family: 'Mali', cursive;
-    font-size: 18px;padding-bottom: 50px;
+    font-size: 18px;
+    padding-bottom: 54px;
 }
 .card:hover .card__overlay {
     transform: translateY(0);

@@ -73,12 +73,6 @@
 .objective h1{
     margin-bottom: 4%;
 }
-.objective .left {
-    position: relative;
-}
-.objective .right {
-    position: relative;
-}
 .objective .left img {
     z-index: 0;
     position: absolute;
@@ -228,11 +222,6 @@
         position: relative;
     }
 
-    .objective .right ul{
-        position: relative;
-        left: -16%;
-    }
-
     /*----------------------------
     ---- end objective section ---
     -----------------------------*/
@@ -293,10 +282,6 @@
     .objective .background-video {
         width: 240px;
         height: 160px;
-    }
-    .objective .right ul{
-        position: relative;
-        left: -18%;
     }
     /*---------------------------
     ---- end objective section ---
