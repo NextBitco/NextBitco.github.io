@@ -9,7 +9,7 @@
     position: absolute;
     top: 32%; left: 50%;
     width:auto;
-    height: 28rem;
+    height: 16rem;
     transform: translate(-50%);
 }
 .loader-wrapper h4{
@@ -57,6 +57,9 @@
 
 }
 @media(max-width: 991px) {
+    .loader-wrapper img{
+        top: 42%;
+    }
     .thought {
         left: 40%;
         top: 16%;
