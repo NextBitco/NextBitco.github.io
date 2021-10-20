@@ -1,11 +1,6 @@
-.footer {
-  z-index: 1;
-  --footer-background:#8E5AFF;
-  position: relative;
-  width: auto;
-  height: 1rem;
-}
-.footer .bubbles {
+footer .bubbles {
+  display: flex;
+  flex-direction: row;
   position: absolute;
   top: 0;
   left: 0;
@@ -15,7 +10,7 @@
   -webkit-filter: url("#blob");
           filter: url("#blob");
 }
-.footer .bubbles .bubble {
+footer .bubbles .bubble {
   position: absolute;
   left: var(--position, 50%);
   background: var(--footer-background);
