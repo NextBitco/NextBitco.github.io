@@ -56,7 +56,7 @@
     background-repeat: no-repeat;
     background-image: url("../imgs/png/border_video.png");
 }
-.objective .background-video iframe{
+.objective .background-video video{
     width: 82%;
     height: 82%;
     position: relative;
