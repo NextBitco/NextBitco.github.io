@@ -589,32 +589,6 @@ p.from-me::after {
     ---- end character-pre -
     -----------------------------*/
     /*----------------------------
-    ---- start talk-with-us  -------
-    -----------------------------*/
-    .talk-with-us .character-with-chat{
-        display: flex;
-        position: relative;
-        height: 200px;
-    }
-    .talk-with-us .character-with-chat img{
-        display: block;
-        position: absolute;
-        width: auto;
-        height: 200px;
-    }
-    .talk-with-us .character-with-chat .tody{
-        margin: 5% 0% 10% 8%;
-    }
-    .talk-with-us .character-with-chat .peemo{
-        margin: 5% 0% 10% 30%;
-    }
-    .talk-with-us .character-with-chat .teena{
-        margin: 5% 0% 10% 30%;
-    }
-    /*----------------------------
-    ---- end talk-with-us -------
-    -----------------------------*/
-    /*----------------------------
     ---- start talk-talk  -------
     -----------------------------*/
     .talk-talk .name{
@@ -762,28 +736,7 @@ p.from-me::after {
     /*----------------------------
     ---- end talk-tailing  -------
     -----------------------------*/
-    /*----------------------------
-    ---- start talk-with-us  -------
-    -----------------------------*/
-    .talk-with-us .character-with-chat img{
-        display: block;
-        position: absolute;
-        width: auto;
-        height: 200px;
-    }
-    .talk-with-us .character-with-chat .tody{
-        margin-left: 8%;
-    }
-    .talk-with-us .character-with-chat .peemo{
-        margin-left: 30%;
-    }
-    .talk-with-us .character-with-chat .teena{
-        margin-left: 30%;
-    }
-    /*----------------------------
-    ---- end talk-with-us -------
-    -----------------------------*/
-    /*----------------------------
+   
      /*----------------------------
     ---- start character-with-us ----
     -----------------------------*/
@@ -809,27 +762,6 @@ p.from-me::after {
 }
 
 @media screen and (max-width: 767px){
-    /*----------------------------
-    ---- start talk-with-us  -------
-    -----------------------------*/
-    .talk-with-us .character-with-chat img{
-        display: block;
-        position: absolute;
-        width: auto;
-        height: 200px;
-    }
-    .talk-with-us .character-with-chat .tody{
-        margin-left: 1%;
-    }
-    .talk-with-us .character-with-chat .peemo{
-        margin-left: 30%;
-    }
-    .talk-with-us .character-with-chat .teena{
-        margin-left: 30%;
-    }
-    /*----------------------------
-    ---- end talk-with-us -------
-    -----------------------------*/
     /*----------------------------
      /*----------------------------
     ---- start character-with-us ----
@@ -907,27 +839,6 @@ p.from-me::after {
     }
     /*----------------------------
     ---- end talk-tailing  -------
-    -----------------------------*/
-    /*----------------------------
-    ---- start talk-with-us  -------
-    -----------------------------*/
-    .talk-with-us .character-with-chat img{
-        display: block;
-        position: absolute;
-        width: auto;
-        height: 140px;
-    }
-    .talk-with-us .character-with-chat .tody{
-        margin-left: 2%;
-    }
-    .talk-with-us .character-with-chat .peemo{
-        margin-left: 30%;
-    }
-    .talk-with-us .character-with-chat .teena{
-        margin-left: 30%;
-    }
-    /*----------------------------
-    ---- end talk-with-us -------
     -----------------------------*/
      /*----------------------------
     ---- start character-with-us ----

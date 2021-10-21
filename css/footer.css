@@ -68,21 +68,132 @@ footer .footer-qrcode{
 
 
 @media (min-width: 992px) {
-
+    footer .footer-logo{
+        justify-content: center;
+        margin: 4rem auto;
+    }
+    footer .footer-link{
+        margin: 4rem;
+    }
+    footer .footer-contact{
+        margin: 4rem auto;
+    }
+    footer .footer-qrcode{
+        margin: 4rem auto;
+    }
 }
 @media (max-width: 991px) {
+    footer{
+        justify-content: space-around;
+    }
     footer .footer-logo{
         margin: 2rem auto;
+        
     }
     footer .footer-link{
         margin: 2rem;
     }
     footer .footer-contact{
         margin: 2rem auto;
+        
     }
     footer .footer-qrcode{
         margin: 2rem auto;
     }
 
+}
+@media (max-width: 880px) {
 
+    footer .footer-logo{
+        margin: 2rem auto;
+        
+    }
+    footer .footer-link{
+        margin: 2rem;
+        margin-top: 5rem;;
+        margin-right: 7rem;
+    }
+    footer .footer-contact{
+        margin: 2rem auto;
+        margin-left: 6rem;
+    }
+    footer .footer-qrcode{
+        margin: 2rem auto;
+    }
+
+}
+@media (max-width: 768px) {
+
+    footer .footer-logo{
+        margin: 2rem auto; 
+    }
+    footer .footer-link{
+        margin: 2rem;
+        margin-top: 5rem;;
+        margin-right: 6rem;
+    }
+    footer .footer-contact{
+        margin: 2rem auto;
+        margin-left: 3rem;
+    }
+    footer .footer-qrcode{
+        margin: 2rem auto;
+    }
+
+}
+@media (max-width: 715px) {
+    footer p{
+        font-size: 20px;
+    }
+    footer .footer-link{
+        margin: 2rem;
+        margin-top: 5rem;;
+        margin-left: 5rem;
+    }
+    footer .footer-contact{
+        margin: 2rem auto;
+        margin-left: 3rem;
+    }
+}
+
+@media (max-width: 560px) {
+    footer .footer-link{
+        margin: 2rem;
+        margin-top: 5rem;
+        margin-left: 4rem;
+    }
+    footer .footer-contact{
+        margin: 2rem auto;
+        margin-left: 5rem;
+    }
+}
+@media (max-width: 375px) {
+    footer .fa{
+        font-size: 24px;
+    }
+    footer p{
+        font-size: 18px;
+    }
+    footer .footer-link{
+        margin: 2rem;
+        margin-top: 5rem;;
+        margin-left: 3rem;
+    }
+    footer .footer-contact{
+        margin: 2rem auto;
+        margin-right: 1rem;
+    }
+}
+@media (max-width: 280px) {
+    footer .fa{
+        font-size: 20px;
+    }
+    footer p{
+        font-size: 14px;
+    }
+    footer .footer-link{
+        margin: 2rem;
+        margin-top: 5rem;;
+        margin-left: 0rem;
+    }
 }
